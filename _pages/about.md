@@ -2,24 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.si.umich.edu/'>University of Michigan, Ann Arbor</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: qiaozhu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href='https://www.si.umich.edu/people/qiaozhu-mei'>Dr. Qiaozhu Mei</a><br>
+    <p>Professor<br>
+    School of Information & Department of Electrical Engineering and Computer Science<br>
+    University of Michigan, Ann Arbor</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to the Foreseer Group! We are a research team within the University of
+Michigan School of Information (UMSI). We do cutting-edge research related to
+data mining, machine learning, information retrieval, and natural language
+processing. We build models, algorithms, and systems to analyze large
+collections of text, networks, and behaviors. These techniques are applied to
+solving problems in web mining, social computing, health informatics,
+scientific research, and other domains with the aim to generate a positive
+impact on everyone’s daily life. Our research is supported by various
+government agencies such as NSF, NIH, and DARPA. We collaborate with various
+industry leaders and academic partners.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Talk to us or join our group if you are interested in working on these exciting research topics!
+We are always looking for talented students to join our group.
