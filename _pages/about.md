@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.si.umich.edu/'>University of Michigan, Ann Arbor</a>.
 
