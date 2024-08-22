@@ -1,12 +1,17 @@
 ---
 layout: page
+profiles_per_row: 3  # Define the number of profiles per row
 ---
 <div class="post">
   <article>
     {% if page.profiles %}
+      {% assign profiles_per_row = page.profiles_per_row %}
       {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if forloop.index0 | modulo: profiles_per_row == 0 %}
+          <div class="profile-row" style="display: flex; flex-wrap: wrap; width: 100%;">
+        {% endif %}
+
+        <div class="profile float-{{ profile.align }}" style="flex: 0 0 calc(100% / {{ profiles_per_row }}); padding: 10px; box-sizing: border-box;">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             {% if profile.image_circular %}
@@ -14,22 +19,16 @@ layout: page
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            <img src="{{ profile_image_path }}" class="{{ profile_image_class }}" alt="Profile Image">
           {% endif %}
           {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
+            <div class="more-info">{{ profile.more_info | markdownify }}</div>
           {% endif %}
         </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
+        {% if forloop.index0 | modulo: profiles_per_row == profiles_per_row - 1 or forloop.last %}
+          </div> <!-- close .profile-row -->
+        {% endif %}
       {% endfor %}
     {% endif %}
   </article>
