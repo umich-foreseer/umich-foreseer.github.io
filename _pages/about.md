@@ -6,7 +6,7 @@ subtitle: <a href='https://www.si.umich.edu/'>University of Michigan, Ann Arbor<
 
 profile:
   align: right
-  image: qiaozhu.jpg
+  image: people/qiaozhu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href='https://www.si.umich.edu/people/qiaozhu-mei'>Dr. Qiaozhu Mei</a><br>
