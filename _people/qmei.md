@@ -3,8 +3,7 @@ layout: page
 title: Professor. Qiaozhu Mei
 img: assets/img/people/qiaozhu.jpg
 importance: 1
+redirect: https://websites.umich.edu/~qmei/
 category: PI
-related_publications: true
+related_publications: false
 ---
-
-[Personal Website](https://websites.umich.edu/~qmei/)
