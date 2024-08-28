@@ -1,65 +1,65 @@
-layout: profiles
+---
+layout: page
 permalink: /people/
-title: People
-description: Members of the lab or group
+title: people
+description: staff and students engaged in BIG-Culture
 nav: true
-nav_order: 7
-profiles_per_row: 3
+nav_order: 2
+display_categories: [academics, students]
+horizontal: true
+---
 
-profiles:
-  PhD_Students:
-    - align: right
-      image: phd_student1.jpg
-      content: about_phd_student1.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    - align: left
-      image: phd_student2.jpg
-      content: about_phd_student2.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    # Add more PhD students here
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.people | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-  Interns:
-    - align: right
-      image: intern1.jpg
-      content: about_intern1.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    - align: left
-      image: intern2.jpg
-      content: about_intern2.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    # Add more Interns here
+{% else %}
 
-  Alumni:
-    - align: right
-      image: alumni1.jpg
-      content: about_alumni1.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    - align: left
-      image: alumni2.jpg
-      content: about_alumni2.md
-      image_circular: false
-      more_info: >
-        <p>555 your office number</p>
-        <p>123 your address street</p>
-        <p>Your City, State 12345</p>
-    # Add more Alumni here
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.people | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
