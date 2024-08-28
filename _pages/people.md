@@ -2,10 +2,10 @@
 layout: page
 permalink: /people/
 title: people
-description: staff and students engaged in BIG-Culture
+description: staff and students at Foreseer Group
 nav: true
-nav_order: 2
-display_categories: [academics, students]
+nav_order: 3
+display_categories: [PI, PhD & Post-Doc, Interns, Alumni]
 horizontal: true
 ---
 
