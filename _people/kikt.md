@@ -2,7 +2,7 @@
 layout: page
 title: Kik T
 description: |
-    <br>Undergraduate Student, ECE, University of Michigan<br>Jun 2022 -- Present&lt;br&gt;Email: &lt;a href=&quot;mailto:xyz@uwash.edu&quot;&gt;xyz@uwash.edu&lt;/a&gt;
+    <br>Undergraduate Student, ECE, University of Michigan<br>Jun 2022 -- Present
 img: assets/img/people/default_pic.jpeg
 redirect: 
 importance: 6179

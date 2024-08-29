@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/
 title: People
-description: Staff and students at Foreseer Group
+description: Staff and students at Foreseer Group. Click on the individual page for contacts.
 nav: true
 nav_order: 3
 display_categories: [PI, PhD & Post-Doc, Interns, Alumni]
