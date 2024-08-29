@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Mr. dog
-description: "<br>Master Student & PhD student & Postdoctoral Researcher, CSE, MIT<br>09/2018 -- 07/2023<br><span style='color:blue'>Director of Amazon, Amazon Science</span><br>sss.py"
+description: "<br>Master Student & PhD student & Postdoctoral Researcher, CSE, MIT<br>Sep 2018 -- Jul 2023<br><span style='color:blue'>Director, Amazon Science</span><br>sss@amazon.com"
 img: assets/img/people/default_pic.jpeg
 redirect: https://sss.py
-importance: 1
+importance: 426
 category: Alumni
 related_publications: false
 ---
 Homepage: [https://sss.py](https://sss.py)
-Email: [sss.py](mailto:sss.py)
+Email: [sss@amazon.com](mailto:sss@amazon.com)

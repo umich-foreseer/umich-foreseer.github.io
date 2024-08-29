@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Kik T
-description: "<br>Undergraduate Student, ECE, University of Michigan<br>06/2022 -- present<br>dasdasd.py"
+description: "<br>Undergraduate Student, ECE, University of Michigan<br>Jun 2022 -- Present<br>xyz@uwash.edu"
 img: assets/img/people/default_pic.jpeg
 redirect: https://111.xy
-importance: 3
+importance: 179
 category: Interns
 related_publications: false
 ---
 Homepage: [https://111.xy](https://111.xy)
-Email: [dasdasd.py](mailto:dasdasd.py)
+Email: [xyz@uwash.edu](mailto:xyz@uwash.edu)
 LinkedIn: [sss.xy](sss.xy)
