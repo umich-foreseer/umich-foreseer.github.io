@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Kik T
-description: "<br>Undergraduate Student, ECE, University of Michigan<br>Jun 2022 -- Present<br>xyz@uwash.edu"
+description: "<br>Undergraduate Student, ECE, University of Michigan<br>Jun 2022 -- Present<br>Email: <a href='mailto:xyz@uwash.edu'>xyz@uwash.edu</a>"
 img: assets/img/people/default_pic.jpeg
 redirect: https://111.xy
-importance: 179
+importance: 6179
 category: Interns
 related_publications: false
 ---
