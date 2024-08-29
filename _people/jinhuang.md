@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Jin Huang
-description: "<br>PhD student, School of Information, University of Michigan<br>08/2024 -- present"
-img: assets/img/people/default_pic.jpeg
+description: "<br>PhD student, School of Information, University of Michigan<br>Aug 2024 -- Present<br>huangjin@umich.edu"
+img: assets/img/people/jinhuang.jpg
 redirect: https://jn-huang.github.io
-importance: 3
+importance: -29
 category: PhD & Post-Doc
 related_publications: false
 ---
 Homepage: [https://jn-huang.github.io](https://jn-huang.github.io)
+Email: [huangjin@umich.edu](mailto:huangjin@umich.edu)
