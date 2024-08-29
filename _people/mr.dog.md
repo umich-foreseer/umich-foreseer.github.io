@@ -2,7 +2,7 @@
 layout: page
 title: Mr. dog
 description: |
-    <br>Master Student & PhD student & Postdoctoral Researcher, CSE, MIT<br>Sep 2018 -- Jul 2023<br><span style='color:blue'>Director, Amazon Science</span><br> [sss@amazon.com](sss@amazon.com)
+    <br>Master Student & PhD student & Postdoctoral Researcher, CSE, MIT<br>Sep 2018 -- Jul 2023<br><span style='color:blue'>Director, Amazon Science</span>&lt;br&gt;Email: &lt;a href=&quot;mailto:sss@amazon.com&quot;&gt;sss@amazon.com&lt;/a&gt;
 img: assets/img/people/default_pic.jpeg
 redirect: https://sss.py
 importance: 425
