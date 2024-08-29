@@ -10,4 +10,4 @@ category: Interns
 related_publications: false
 ---
 Email: [xyz@uwash.edu](mailto:xyz@uwash.edu)
-LinkedIn: [sss.xy](sss.xy)
+LinkedIn: [https://sss.xy](https://sss.xy)

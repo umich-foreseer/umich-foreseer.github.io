@@ -10,4 +10,4 @@ category: Alumni
 related_publications: false
 ---
 Email: [abc@uiuc.edu](mailto:abc@uiuc.edu)
-LinkedIn: [ssss.linkedin](ssss.linkedin)
+LinkedIn: [https://ssss.linkedin](https://ssss.linkedin)
