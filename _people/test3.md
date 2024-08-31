@@ -5,7 +5,7 @@ description: |
     <br>PhD student & Visiting Student/Scholar, Statistics, U Maryland<br>Apr 2023 -- May 2024<br><span style='color:blue'>Postdoc, Stanford</span>
 img: assets/img/people/default_pic.jpeg
 redirect: 
-importance: 120
+importance: 122
 category: Alumni
 related_publications: false
 ---
