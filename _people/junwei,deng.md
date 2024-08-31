@@ -2,7 +2,7 @@
 layout: page
 title: Junwei, Deng
 description: |
-    <br>Master Student & Engineer, School of Information, Intel<br>Oct 2019 -- Jan 2022<br><span style='color:blue'>PhD Student, UIUC</span>
+    <br>Master Student & Engineer, School of Information, University of Michigan<br>Oct 2019 -- Jan 2022<br><span style='color:blue'>PhD Student, UIUC</span>
 img: assets/img/people/junwei,deng.jpg
 redirect: https://theaperdeng.github.io/
 importance: 7973
