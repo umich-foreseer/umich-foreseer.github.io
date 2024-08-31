@@ -5,7 +5,7 @@ description: |
     <br>PhD student, School of Information, University of Michigan<br>Sep 2024 -- Present
 img: assets/img/people/default_pic.jpeg
 redirect: https://jn-huang.github.io
-importance: 2
+importance: 0
 category: PhD & Post-Doc
 related_publications: false
 ---
