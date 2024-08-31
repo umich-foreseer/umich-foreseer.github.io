@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Xingjian Zhang
+title: Xingjian, Zhang
 description: |
     <br>PhD student, School of Information, University of Michigan<br>Aug 2022 -- Present
-img: assets/img/people/xingjianzhang.jpg
+img: assets/img/people/xingjian,zhang.jpg
 redirect: https://sites.google.com/umich.edu/xingjian-zhang/
 importance: -762
 category: PhD & Post-Doc

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Jin Huang
+title: Jin, Huang
 description: |
     <br>PhD student, School of Information, University of Michigan<br>Aug 2024 -- Present
-img: assets/img/people/jinhuang.jpg
+img: assets/img/people/jin,huang.jpg
 redirect: https://jn-huang.github.io
 importance: -31
 category: PhD & Post-Doc
