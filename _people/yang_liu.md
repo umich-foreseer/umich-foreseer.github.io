@@ -2,8 +2,8 @@
 layout: page
 title: Yang Liu
 description: |
-    PhD, School of Information, University of Michigan
-img: assets/img/people/old_homepage/xiaodan.png
+    <br>PhD, School of Information, University of Michigan<br><span style='color:blue'>Data Scientist at Med Data Quest</span>
+img: assets/img/people/old_homepage/yangliu.png
 redirect: http://owenliu.people.si.umich.edu/
 importance: 7008
 category: Alumni

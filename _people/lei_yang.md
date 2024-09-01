@@ -2,7 +2,7 @@
 layout: page
 title: Lei Yang
 description: |
-    PhD Student, School of Information, University of Michigan
+    <br>PhD Student, School of Information, University of Michigan
 img: assets/img/people/old_homepage/leiyang.png
 redirect: http://www-personal.umich.edu/~yangle/
 importance: 7014

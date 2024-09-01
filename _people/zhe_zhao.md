@@ -2,7 +2,7 @@
 layout: page
 title: Zhe Zhao
 description: |
-    PhD Student, Department of EECS, University of Michigan
+    <br>PhD Student, Department of EECS, University of Michigan<br><span style='color:blue'>Researcher, Google Research</span>
 img: assets/img/people/old_homepage/zhezhao_avatar.jpg
 redirect: http://www-personal.umich.edu/~zhezhao/
 importance: 7015
