@@ -2,7 +2,7 @@
 layout: page
 title: Danny Tzu-Yu Wu
 description: |
-    PhD Student, School of Information, University of Michigan
+    <br>PhD Student, School of Information, University of Michigan<br><span style='color:blue'>Assistant Professor, University of Cincinnati</span>
 img: assets/img/people/old_homepage/Danny_TY_Wu.png
 redirect: http://tzuyu.dscloud.me/~tzuyu/
 importance: 7013

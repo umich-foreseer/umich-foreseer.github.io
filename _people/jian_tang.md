@@ -2,7 +2,7 @@
 layout: page
 title: Jian Tang
 description: |
-    Research Fellow, School of Information, University of Michigan
+    <br>Research Fellow, School of Information, University of Michigan<br><span style='color:blue'>Associate Professor, University of Montreal</span>
 img: assets/img/people/old_homepage/jian-150x150.jpg
 redirect: https://sites.google.com/site/pkujiantang/
 importance: 7011

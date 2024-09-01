@@ -2,7 +2,7 @@
 layout: page
 title: Cheng Li
 description: |
-    PhD Student, School of Information, University of Michigan
+    <br>PhD Student, School of Information, University of Michigan<br><span style='color:blue'>Google</span>
 img: assets/img/people/old_homepage/Cheng-pic2.png
 redirect: http://www-personal.umich.edu/~lichengz/
 importance: 7007
