@@ -4,15 +4,15 @@ title: About
 permalink: /
 subtitle: <a href='https://www.si.umich.edu/'>University of Michigan, Ann Arbor</a>.
 
-profile:
-  align: right
-  image: people/qiaozhu.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <a href='https://www.si.umich.edu/people/qiaozhu-mei'>Dr. Qiaozhu Mei</a><br>
-    <p>Professor<br>
-    School of Information & Department of Electrical Engineering and Computer Science<br>
-    University of Michigan, Ann Arbor</p>
+# profile:
+#   align: right
+#   image: people/qiaozhu.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <a href='https://www.si.umich.edu/people/qiaozhu-mei'>Dr. Qiaozhu Mei</a><br>
+#     <p>Professor<br>
+#     School of Information & Department of Electrical Engineering and Computer Science<br>
+#     University of Michigan, Ann Arbor</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
