@@ -34,7 +34,7 @@ Our recent interests include, but are not limited to:
 
 - AI for Behavioral Science ([[KDD Workshop on AI Behavioral Science]](https://dl.acm.org/doi/abs/10.1145/3637528.3671503), [[Turing Test for AI Chatbots, PNAS]](https://www.pnas.org/doi/abs/10.1073/pnas.2313925121))
 - LLMs for Scientific Discovery ([[MASSW]](https://arxiv.org/abs/2406.06357), [[SciLitLLM]](http://www.arxiv.org/abs/2408.15545))
-- Machien Learning on Graph Structures ([[LLMs on Graph Structures, TMLR]](https://arxiv.org/abs/2309.16595), [[Hypergraph Expansion, WWW 2024]](https://dl.acm.org/doi/abs/10.1145/3589334.3645657), [[A Metadata-Driven Approach for GNNs, NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/31994923f58ae5b2d661b300bd439107-Abstract-Conference.html), [[PM2.5 Forecasting, AI Open]](https://www.sciencedirect.com/science/article/pii/S2666651023000220))
+- Machine Learning on Graph Structures ([[LLMs on Graph Structures, TMLR]](https://arxiv.org/abs/2309.16595), [[Hypergraph Expansion, WWW 2024]](https://dl.acm.org/doi/abs/10.1145/3589334.3645657), [[A Metadata-Driven Approach for GNNs, NeurIPS 2024]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/31994923f58ae5b2d661b300bd439107-Abstract-Conference.html), [[PM2.5 Forecasting, AI Open]](https://www.sciencedirect.com/science/article/pii/S2666651023000220))
 - AI for Social Science ([[AI for Crowdfunding]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4806426), [[Team Resilience during Covid, AAAI 2023]](https://ojs.aaai.org/index.php/ICWSM/article/view/22170))
 
 Talk to us or join our group if you are interested in working on these exciting research topics!
