@@ -17,6 +17,9 @@ subtitle: <a href='https://www.si.umich.edu/'>University of Michigan, Ann Arbor<
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+images:
+  compare: true
+  slider: true
 ---
 
 Welcome to the Foreseer Group! We are a research team within the University of
