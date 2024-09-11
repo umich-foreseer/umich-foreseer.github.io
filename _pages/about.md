@@ -44,6 +44,6 @@ Talk to us or join our group if you are interested in working on these exciting 
 We are always looking for talented students to join our group.
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gallery/MASSW.svg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gallery/MASSW.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gallery/pnas.png" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
