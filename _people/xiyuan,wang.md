@@ -5,7 +5,7 @@ description: |
     <br>Master Student, School of Information, University of Michigan<br>Jan 2024 -- Present
 img: assets/img/people/xiyuan,wang.jpg
 redirect: 
-importance: 6743
+importance: 6740
 category: Interns
 related_publications: false
 ---

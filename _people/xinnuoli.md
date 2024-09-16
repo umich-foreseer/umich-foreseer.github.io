@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>May 2024 -- Present
 img: assets/img/people/xinnuoli.jpg
 redirect: https://monmonli.github.io/
-importance: 6864
+importance: 6861
 category: Interns
 related_publications: false
 ---
