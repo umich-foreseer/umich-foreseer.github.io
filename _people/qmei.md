@@ -4,6 +4,6 @@ title: Professor. Qiaozhu Mei
 img: assets/img/people/qiaozhu.jpg
 importance: 1
 redirect: https://websites.umich.edu/~qmei/
-category: PI
+category: Group Lead
 related_publications: false
 ---

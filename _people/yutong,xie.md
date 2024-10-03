@@ -5,8 +5,8 @@ description: |
     <br>PhD student, School of Information, University of Michigan<br>Sep 2020 -- Present
 img: assets/img/people/yutong,xie.jpg
 redirect: https://yutxie.com/
-importance: -1477
-category: PhD & Post-Doc
+importance: -1494
+category: Post-doc and doctoral students
 related_publications: false
 ---
 Homepage: [https://yutxie.com/](https://yutxie.com/)
