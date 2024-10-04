@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, School of Information, University of Michigan<br>Sep 2024 -- Present
 img: assets/img/people/kuang-yu,lo.jpg
 redirect: 
-importance: 6967
+importance: 6966
 category: Master and undergraduate students
 related_publications: false
 ---
