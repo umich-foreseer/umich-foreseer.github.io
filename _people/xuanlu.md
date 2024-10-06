@@ -5,7 +5,7 @@ description: |
     <br>Postdoctoral Researcher, School of Information, University of Michigan<br>Sep 2019 -- Aug 2023<br><span style='color:blue'>Assistant Professor, The University of Arizona</span>
 img: assets/img/people/xuanlu.jpg
 redirect: https://luxuan09.github.io/
-importance: 430
+importance: 431
 category: Alumni
 related_publications: false
 ---
