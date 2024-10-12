@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>May 2022 -- Dec 2022<br><span style='color:blue'>2nd year Master's student, CMU</span>
 img: assets/img/people/yuanxu.jpg
 redirect: 
-importance: 7677
+importance: 7681
 category: Alumni
 related_publications: false
 ---

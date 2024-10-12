@@ -5,7 +5,7 @@ description: |
     <br>Postdoctoral Researcher, School of Information, University of Michigan<br>Aug 2013 -- Jul 2015<br><span style='color:blue'>Associate Professor of Learning Health Sciences, University of Michigan</span>
 img: assets/img/people/v.g.vinod,vydiswaran.jpg
 redirect: https://medicine.umich.edu/dept/lhs/vg-vinod-vydiswaran-phd
-importance: 3387
+importance: 3391
 category: Alumni
 related_publications: false
 ---
