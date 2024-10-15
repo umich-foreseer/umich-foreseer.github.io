@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>Oct 2019 -- Jun 2020<br><span style='color:blue'>PhD Student, The Chinese University of Hong Kong</span>
 img: assets/img/people/shuangruiding.jpg
 redirect: https://mark12ding.github.io/
-importance: 8594
+importance: 8597
 category: Alumni
 related_publications: false
 ---

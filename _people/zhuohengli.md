@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>Sep 2024 -- Present
 img: assets/img/people/default_pic.jpeg
 redirect: https://zhliovo.github.io
-importance: 6958
+importance: 6955
 category: Master and undergraduate students
 related_publications: false
 ---
