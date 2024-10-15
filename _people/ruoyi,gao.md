@@ -5,7 +5,7 @@ description: |
     <br>Master Student, ECE, University of Michigan<br>Jul 2023 -- Present
 img: assets/img/people/ruoyi,gao.jpg
 redirect: 
-importance: 6530
+importance: 6527
 category: Master and undergraduate students
 related_publications: false
 ---
