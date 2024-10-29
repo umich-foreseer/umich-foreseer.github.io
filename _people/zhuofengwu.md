@@ -5,7 +5,7 @@ description: |
     <br>PhD student & Visiting Student/Scholar, School of Information, University of Michigan<br>Jul 2015 -- Dec 2020<br><span style='color:blue'>Applied Scientist, Amazon</span>
 img: assets/img/people/zhuofengwu.jpg
 redirect: https://cserxy.github.io/
-importance: 1414
+importance: 1428
 category: Alumni
 related_publications: false
 ---

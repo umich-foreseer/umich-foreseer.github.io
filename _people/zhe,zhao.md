@@ -5,7 +5,7 @@ description: |
     <br>PhD student, CSE, University of Michigan<br>Sep 2011 -- Jun 2016<br><span style='color:blue'>Assistant Professor, UC Davis</span>
 img: assets/img/people/zhe,zhao.jpg
 redirect: https://sites.google.com/view/zhezhao
-importance: 3058
+importance: 3072
 category: Alumni
 related_publications: false
 ---
