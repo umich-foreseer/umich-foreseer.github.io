@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>Sep 2019 -- May 2021<br><span style='color:blue'>PhD Candidate, University of Michigan</span>
 img: assets/img/people/martinziqiaoma.jpg
 redirect: https://mars-tin.github.io/
-importance: 8263
+importance: 8277
 category: Alumni
 related_publications: false
 ---

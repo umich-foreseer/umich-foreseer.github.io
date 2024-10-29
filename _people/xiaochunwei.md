@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, Statistics, University of Michigan<br>Dec 2023 -- Present<br><span style='color:blue'>Undergraduate Research Assistance , University of Michigan</span>
 img: assets/img/people/xiaochunwei.jpg
 redirect: 
-importance: 6680
+importance: 6666
 category: Master and undergraduate students
 related_publications: false
 ---
