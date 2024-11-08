@@ -5,7 +5,7 @@ description: |
     <br>PhD student, CSE, University of Michigan<br>Sep 2012 -- Jul 2018<br><span style='color:blue'>Assistant Professor, University of North Carolina at Chapel Hill</span>
 img: assets/img/people/yuewang.jpg
 redirect: https://ils.unc.edu/~wangyue/
-importance: 2312
+importance: 2322
 category: Alumni
 related_publications: false
 ---

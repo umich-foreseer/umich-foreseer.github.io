@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, CSE, University of Michigan<br>Mar 2019 -- May 2020<br><span style='color:blue'>PhD student, University of North Carolina at Chapel Hill</span>
 img: assets/img/people/default_pic.jpeg
 redirect: https://sites.google.com/view/mengtianguo/home
-importance: 8642
+importance: 8652
 category: Alumni
 related_publications: false
 ---
