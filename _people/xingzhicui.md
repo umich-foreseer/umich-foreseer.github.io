@@ -5,7 +5,7 @@ description: |
     <br>Undergraduate Student, Statistics, University of Michigan<br>Oct 2024 -- Present
 img: assets/img/people/xingzhicui.jpg
 redirect: 
-importance: 6971
+importance: 6961
 category: Master and undergraduate students
 related_publications: false
 ---
