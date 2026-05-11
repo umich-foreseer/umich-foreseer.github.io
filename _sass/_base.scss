@@ -607,62 +607,35 @@ footer.sticky-bottom {
 
 // Projects
 
-.people-view-toggle-input {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
+.people-view-controls {
+  margin: 1rem 0 0.75rem;
 }
 
 .people-view-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  margin: 1rem 0 0.25rem;
+  gap: 0.45rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-card-bg-color);
   color: var(--global-text-color);
   font-size: 0.95rem;
   cursor: pointer;
   user-select: none;
 }
 
-.people-view-toggle-track {
-  position: relative;
-  display: inline-flex;
-  width: 2.35rem;
-  height: 1.25rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  background: var(--global-card-bg-color);
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.people-view-toggle-thumb {
-  position: absolute;
-  top: 0.15rem;
-  left: 0.15rem;
-  width: 0.85rem;
-  height: 0.85rem;
-  border-radius: 50%;
-  background: var(--global-divider-color);
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease;
-}
-
-.people-view-toggle-input:checked + .people-view-toggle .people-view-toggle-track {
+.people-view-toggle:hover {
   border-color: var(--global-theme-color);
-  background: var(--global-theme-color);
+  color: var(--global-theme-color);
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
 }
 
-.people-view-toggle-input:checked + .people-view-toggle .people-view-toggle-thumb {
-  transform: translateX(1.1rem);
-  background: var(--global-bg-color);
-}
-
-.people-view-toggle-input:focus-visible + .people-view-toggle .people-view-toggle-track {
-  outline: 2px solid var(--global-theme-color);
-  outline-offset: 2px;
+.people-view-toggle-checkbox {
+  margin: 0;
+  accent-color: var(--global-theme-color);
 }
 
 .people-compact-list {
@@ -699,11 +672,11 @@ footer.sticky-bottom {
   white-space: nowrap;
 }
 
-.people-view-toggle-input:checked ~ .projects .people-card-view {
+.people-projects.people-compact-active .people-card-view {
   display: none;
 }
 
-.people-view-toggle-input:checked ~ .projects .people-compact-list {
+.people-projects.people-compact-active .people-compact-list {
   display: block;
 }
 

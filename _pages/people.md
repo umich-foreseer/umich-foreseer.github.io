@@ -11,16 +11,15 @@ horizontal: true
 
 If you are a current student or alumni and want your information included on this page, please fill out [Foreseer Group Homepage Update Form 2024](https://docs.google.com/forms/d/e/1FAIpQLSeg1M1lNeYZ7-9zR5aNXNn4U6LypsR73h3bN1buabx6T0DQMQ/viewform?usp=sf_link). Thanks!
 
-<!-- pages/projects.md -->
-<input class="people-view-toggle-input" type="checkbox" id="people-compact-toggle">
-<label class="people-view-toggle" for="people-compact-toggle">
-  <span class="people-view-toggle-track">
-    <span class="people-view-toggle-thumb"></span>
-  </span>
-  <span>Compact view</span>
-</label>
+<div class="people-view-controls">
+  <label class="people-view-toggle" for="people-compact-toggle">
+    <input class="people-view-toggle-checkbox" type="checkbox" id="people-compact-toggle">
+    <span>Compact view</span>
+  </label>
+</div>
 
-<div class="projects">
+<!-- pages/projects.md -->
+<div class="projects people-projects" id="people-projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
@@ -87,3 +86,21 @@ If you are a current student or alumni and want your information included on thi
 </ul>
 {% endif %}
 </div>
+
+<script>
+  (function () {
+    const toggle = document.getElementById("people-compact-toggle");
+    const projects = document.getElementById("people-projects");
+
+    if (!toggle || !projects) {
+      return;
+    }
+
+    const updatePeopleView = () => {
+      projects.classList.toggle("people-compact-active", toggle.checked);
+    };
+
+    toggle.addEventListener("change", updatePeopleView);
+    updatePeopleView();
+  })();
+</script>
