@@ -607,6 +607,113 @@ footer.sticky-bottom {
 
 // Projects
 
+.people-view-toggle-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.people-view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.25rem;
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.people-view-toggle-track {
+  position: relative;
+  display: inline-flex;
+  width: 2.35rem;
+  height: 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background: var(--global-card-bg-color);
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.people-view-toggle-thumb {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: var(--global-divider-color);
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.people-view-toggle-input:checked + .people-view-toggle .people-view-toggle-track {
+  border-color: var(--global-theme-color);
+  background: var(--global-theme-color);
+}
+
+.people-view-toggle-input:checked + .people-view-toggle .people-view-toggle-thumb {
+  transform: translateX(1.1rem);
+  background: var(--global-bg-color);
+}
+
+.people-view-toggle-input:focus-visible + .people-view-toggle .people-view-toggle-track {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+.people-compact-list {
+  display: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.people-compact-item {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.people-compact-link {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.32fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+  color: var(--global-text-color);
+}
+
+.people-compact-name {
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.people-compact-description {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--global-text-color-light);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.people-view-toggle-input:checked ~ .projects .people-card-view {
+  display: none;
+}
+
+.people-view-toggle-input:checked ~ .projects .people-compact-list {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .people-compact-link {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}
+
 .projects {
   a {
     text-decoration: none;

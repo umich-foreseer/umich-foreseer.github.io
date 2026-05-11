@@ -1,0 +1,6 @@
+<li class="people-compact-item">
+  <a class="people-compact-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <span class="people-compact-name">{{ project.title }}</span>
+    <span class="people-compact-description">{{ project.description | strip_html | strip }}</span>
+  </a>
+</li>
