@@ -2,13 +2,12 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: 
+description:
 nav: true
 nav_order: 2
 ---
 
 Also view our publications on [Google Scholar](https://scholar.google.com/citations?hl=en&user=zr22WkQAAAAJ&view_op=list_works&sortby=pubdate).
-
 
 <!-- _pages/publications.md -->
 
