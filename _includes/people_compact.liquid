@@ -1,13 +1,28 @@
-{% assign compact_description = project.description
-  | replace: '<br>', ' · '
-  | replace: '<br/>', ' · '
-  | replace: '<br />', ' · '
-  | strip_html
-  | strip
-%}
+{% assign compact_description_lines = project.description | replace: '<br/>', '<br>' | replace: '<br />', '<br>' | split: '<br>' %}
+{% assign compact_description_count = 0 %}
+{% for description_line in compact_description_lines %}
+  {% assign compact_line = description_line | strip_html | strip %}
+  {% if compact_line != '' %}
+    {% assign compact_description_count = compact_description_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% assign compact_description_index = 0 %}
 <li class="people-compact-item">
   <a class="people-compact-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <span class="people-compact-name">{{ project.title }}</span>
-    <span class="people-compact-description">{{ compact_description }}</span>
+    <span class="people-compact-description">
+      {% for description_line in compact_description_lines %}
+        {% assign compact_line = description_line | strip_html | strip %}
+        {% if compact_line != '' %}
+          {% assign compact_description_index = compact_description_index | plus: 1 %}
+          <span class="people-compact-description-line">
+            {% if project.category == 'Alumni' and compact_description_index == compact_description_count %}
+              --&gt;
+            {% endif %}
+            {{ compact_line }}
+          </span>
+        {% endif %}
+      {% endfor %}
+    </span>
   </a>
 </li>

@@ -654,7 +654,7 @@ footer.sticky-bottom {
   display: grid;
   grid-template-columns: minmax(9rem, 0.32fr) minmax(0, 1fr);
   gap: 1rem;
-  align-items: baseline;
+  align-items: start;
   padding: 0.45rem 0;
   color: var(--global-text-color);
 }
@@ -666,10 +666,12 @@ footer.sticky-bottom {
 
 .people-compact-description {
   min-width: 0;
-  overflow: hidden;
   color: var(--global-text-color-light);
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+.people-compact-description-line {
+  display: block;
+  overflow-wrap: anywhere;
 }
 
 .people-projects.people-compact-active .people-card-view {
